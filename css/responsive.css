@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 1370px) {
+
+ }
+ @media only screen and (max-width: 1290px) {
+
+ .innersec1 .container{width: 98%}
+ .about-sec .management-team .owl-prev{left: 1px}
+ .about-sec .management-team .owl-next{right: 1px}
+ .about-sec .management-team .owl-nav [class*=owl-]{top: -175px !important}
+ }
+ 
+@media only screen and (max-width: 1030px) {
+ .srchopen{width:60px}
+ .camera_caption > div{height:335px;}
+.main-banner{height:500px}
+.camera_caption > div h1{font-size:30px; line-height:35px}
+.camera_caption > div h2{font-size:14px; line-height:14px}
+.career-sec .associate-gallery p{font-size: 16px}
+}
+
+@media only screen and (max-width: 1080px) {
+header .top .search{right:0}
+header .top .container{width:96%; padding:0 2%}
+.content-container{width:96%; padding:0 2%}
+.industrial-sec .left{width: 50%}
+.industrial-sec .right{width: 50%}
+.industrial-sec .left img{margin: 0px !important}
+.industrial-sec .right .cnt{width: 90%; padding: 0 5% !important}
+.contact-sec .sec1 .left .cnt{width: 90%; max-width: 100%; margin: 0; padding: 0 5%}
+.contact-sec .sec1 .right .cnt{width: 90%; max-width: 100%; margin: 0; padding: 0 5%}
+.contact-sec .sec3 .address li .place{font-size: 18px; line-height: 18px}
+.contact-sec .sec3 .address li .company{font-size: 16px; line-height: 20px}
+.contact-sec .sec3 .address li{font-size: 14px; line-height: 16px}
+.contact-sec .sec4  li{font-size: 16px; line-height: 25px}
+}
+	
+	
+@media only screen and (max-width: 1000px) {
+.search.srchfull {width: 80% !important;}	
+.camera_caption > div{height:275px;}
+.main-banner{height:350px}
+.camera_caption > div h1{font-size:30px; line-height:35px}
+.camera_caption > div h2{font-size:14px; line-height:14px}
+.content-container .list1 li p{font-size:12px; line-height:18px}
+.content-container .list2 li p{font-size:12px; line-height:18px}
+.content-container .list2 li{width:30%; margin-right:4%}
+.bottomsec ul li{font-size:12px; line-height:15px}
+.bottomsec .date{font-size:12px; line-height:12px}
+.bottomsec h3{font-size:12px; line-height:17px}
+.child .cnt .right h1{font-size:12px; line-height:15px;}
+.child .cnt .s1 h1{font-size:12px; line-height:15px;}
+.tstmonial .text{font-size: 13px; line-height: 17px}
+.bottomsec .logo-sec{height: 198px}
+.tstmonial .name{font-size: 12px; line-height: 13px}
+.sldr1 .item{height: 215px}
+footer .top{font-size: 13px}
+.about-sec .sec2 li{width: 48%; margin: 1% !important}
+.innersec1 h2{font-size: 25px; line-height: 25px}
+.innersec1 h3{font-size: 16px; line-height: 20px}
+.about-sec .sec2 li .title
+.about-sec .sec2 li .title{font-size: 16px; line-height: 18px; min-height: 30px}
+.about-sec .management-team .name{font-size: 16px; line-height: 18px; height: auto;}
+.about-sec .client-say p{font-size: 14px}
+.service-sec .listing .bullet{display: none;}
+.career-sec .icon2{width: 240px}
+.contact-sec .sec1 .top-sec .title{font-size: 20px}
+.contact-sec .sec1 .top-sec{height: 60px}
+.contact-sec .sec1 .right li{font-size: 15px; line-height: 17px}
+.contact-sec .sec1 .left .submit-btn{font-size: 12px}
+.contact-sec .sec1 .left{padding: 30px 0}
+.contact-sec .sec1 .right {padding: 30px 0}
+header .top .rht{margin-top: -76px}
+}
+
+@media only screen and (max-width: 700px) {
+.content-container .list2 li{width: 48%; margin: 1% !important}
+.content-container .list2 li p{height: 115px}
+.bottomsec article section{width:100%; text-align: center;}
+.bottomsec article .mr{margin:20px 0}
+.bottomsec ul{margin-bottom:15px}
+.bottomsec h3{line-height:0}
+.bottomsec .logo-sec{height: auto;}
+.sldr1 .item{height: auto;}
+.bottomsec h2{text-align: center;}
+.bottomsec h3{text-align: center;}
+.tstmonial .pic{display: inline-block;}
+footer .top .left{width: 100%}
+footer .top .right{width: 100%; clear: both; margin-top: 30px}
+.content-container h1{font-size: 18px; line-height: 18px}
+.content-container h2{font-size: 14px}
+footer .btm .left{width: 100%}
+footer .btm .right{width: 100%; clear: both; text-align: center; }
+footer .btm .right ul{width: 100%; clear: both; text-align: center;}
+footer .btm .right ul li{float: none; display: inline-block;}
+.innersec1 h4{font-size: 16px}
+.innersec1 h2:before{display: none;}
+.innersec1 h2:after{display: none;}
+.innersec1 h2{padding: 0}
+.career-sec .tag6 li .left{width: 100%;}
+.career-sec .tag6 li .right{width: 100%; clear: both; text-align: left;}
+.career-sec .tag6 li .right .place{text-align: left;}
+.career-sec .tag6 .tiltle{font-size: 25px; line-height: 27px}
+.career-sec .tag6 .sub-tiltle{font-size: 14px; line-height: 20px}
+.career-sec .tag7 .left{width: 100%; padding-top: 0; font-size: 14px; line-height: 16px}
+.career-sec .tag7 .right{width: 100%; clear: both; text-align: center; margin-top: 10px}
+.career-sec .tag7 .right a{float: none;}
+.innersec1 h4{font-size: 14px}
+.industrial-sec .left{width: 100% !important; clear: both; text-align: center; padding-bottom: 0}
+.industrial-sec .left img{float: none !important; display: inline-block;}
+.industrial-sec .right{width: 100% !important; clear: both;}
+.industrial-sec .left .cnt{max-width: 100% !important}
+.industrial-sec .right .cnt{max-width: 100% !important}
+.contact-sec .sec1 .left{width: 100%; height: auto;}
+.contact-sec .sec1 .right {width: 100%; height: auto; clear: both;}
+.contact-sec .sec1 .top-sec{height: auto;}
+.contact-sec .sec3 .address{width: 100%;}
+.contact-sec .sec3 .mdl{margin: 10px 0}
+.contact-sec .sec4 .center{display: none;}
+.contact-sec .sec4 .left{width: 100%}
+.contact-sec .sec4 .right{width: 100%}
+.contact-sec .sec3{padding: 30px 0}
+.pop-cnt{width: 400px; padding: 30px}
+}
+@media only screen and (max-width: 500px) {
+header .top .logo{width:150px; margin-top:33px}
+header .top .logo:hover{margin-top:27px}
+header .top nav{margin-right:13%}
+.search.srchfull {width: 100% !important;}	
+.search.srchfull .searchfield{width:83% !important}
+.camera_caption > div{height:205px;}
+.main-banner{height:250px}
+.camera_caption > div h1{font-size:20px; line-height:25px}
+.camera_caption > div h2{font-size:12px; line-height:12px}
+.camera_caption > div .btn{width:115px; height:35px; line-height:35px}
+.content-container h1{font-size:15px}
+.content-container h2{font-size:12px; line-height:12px}
+.content-container .list1 li{width:100%}
+.content-container .list1 .mr{margin:15% 0}
+.content-container .list1 li p{height:auto; margin-bottom:10px}
+
+.content-container .list1 li h2{font-size:15px; line-height:15px}
+.content-container article{margin-bottom:10%}
+#main-wrapper{padding-top:15%}
+.content-container .list2 li p{height:auto; margin-bottom:10px}
+.content-container .list2 li h2{font-size:15px; line-height:15px}
+.content-container .list2 li{width:100%; margin-right:0; margin-bottom:5%}
+.content-container .list2 .lst{margin-bottom:0}
+.content-container .sup{margin-bottom:15%}
+
+footer .top .left{width:100%}
+footer .top .right{width:100%; float:left; margin-top:20px}
+footer .btm .left{width:100%}
+footer .btm .right{width:100%; margin-top:25px; }
+footer .btm .right ul{float:left}
+footer .btm .left section h1{font-size:40px}
+.owl-theme .owl-controls{margin-top: -47px}
+.content-container .list1 p{font-size: 13px; line-height: 20px}
+.content-container .btn{font-size: 12px}
+.content-container .list1 h2{font-size: 14px; line-height: 15px}
+.about-sec .sec2 li{width: 100%; clear: both; margin: 5px 0 !important}
+.about-sec .sec2 li .title{min-height: inherit; font-size: 16px; line-height: 18px}
+.about-sec .sec2 li p{min-height: inherit;}
+.career-sec .tag6 .tiltle{font-size: 22px; line-height: 22px}
+.career-sec .testimonial-sec .coments{font-size: 14px}
+header .top .rht{margin-top: -80px}
+.pop-cnt{width: 360px; padding: 10px}
+.pop-cnt p{font-size: 12px; line-height: 16px}
+}
+
+@media only screen and (max-width: 320px) {
+.camera_caption > div{height:155px;}
+.main-banner{height:200px}
+.camera_caption > div h1{font-size:15px; line-height:20px}
+.camera_caption > div h2{font-size:12px; line-height:12px}
+.camera_caption > div .btn{width:95px; height:30px; font-size:12px; line-height:30px}
+footer .top h3{text-align:center}
+footer .top .left ul{width:100%; text-align:center}
+footer .top .left .mr{margin:10px 0}
+footer .top{font-size:12px; line-height:16px}
+footer .top h3{font-size:13px; margin-bottom:20px}
+footer .top .subscribe .txt{font-size:12px}
+footer .btm .right{width:100%; margin-top:15px}
+header .top nav a#pull:after{right:20px}
+.pop-cnt{width: 250px; padding: 10px}
+}

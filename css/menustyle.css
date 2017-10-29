@@ -1,0 +1,60 @@
+
+header .top nav a#pull {
+	display: none;
+	outline:none !important
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 990px) {
+	header .top nav{margin-right:7%}
+header .top nav li:hover .ic{ display:none !important}
+.child .cnt .left{display:none}
+.child .cnt .right{width:100%; float:left}
+.child .cnt .right li{padding:5px 0 !important}
+
+.child .cnt .s1{width:100%; float:left}
+.child .cnt .s1 li{padding:5px 0 !important}
+
+.child .cnt .right h1{font-size:15px; line-height:15px; width:95%; padding:0 2.5%}
+.child .cnt .s1 h1{font-size:15px; line-height:15px;  width:95%; padding:0 2.5%}
+
+
+.child{height:auto; padding:10px 0; top:0 !important}	
+header .top nav {width:auto !important; margin-left:0; float:right; margin-top:75px; height:auto !important}
+header .top nav ul{  margin:0;  position:absolute; top:90px;  width:25%; right:0px; background:#0c1b24; display:none;  z-index:5000;}
+header .top nav li{  width:100% ; padding:10px 0px !important; height:auto !important;  margin:0px !important; transition: all 0.3s ease-out 0s;-moz-transition: all 0.3s ease-out 0s;-webkit-transition: all 0.3s ease-out 0s;-o-transition: all 0.3s ease-out 0s; position:static; text-align:left !important; text-transform:uppercase; font-size:14px; line-height:14px}
+header .top nav li a{ padding:10px 20px !important; color:#FFF}
+header .top nav li:hover{ background:#f2f6f7;}
+header .top nav li a:hover{background:none !important;} 
+header .top nav li:hover a{ color:#0c1b24;}
+header .top nav a#pull {
+		display: block;
+		
+		background-color: #283744;
+		width: 100%;
+		position: relative;
+	}
+header .top nav a#pull:after {
+		content:"";
+		background:url(../images/nav-icon.png) no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 10px;
+		top: -40px;
+	}
+header .top nav .child_menu{width:100%}
+	.child{width:auto !important; background:#f2f6f7 !important; position:static !important; padding:10px 0 !important; width:100% !important; margin:5px 0}
+header .top nav li{position:static !important}
+	.navActive2{background:none !important}
+header .top nav .child li{font-size:10px !important}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 500px) {
+header .top nav ul{ width:100%; right:0;}
+header .top nav .child li{font-size:10px !important}
+	
+}
+
